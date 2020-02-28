@@ -2,4 +2,4 @@
 
 ### Script to save png rotated rendered brain images -- to be used for gif construction
 
-#### Instructions: 0) Modify the main.py  script by setting some paths 1) Open MRIcroGL app, 2) Go to: Scripting -> New, 3) Paste the main code there and then 4) Scripting -> Run
+#### Instructions: 1) Modify the MRIcroGL_rotating_movie.py python script by setting some paths 2) Open MRIcroGL app, 3) Go to: Scripting -> New, 4) Paste the python code there and then 5) Scripting -> Run
