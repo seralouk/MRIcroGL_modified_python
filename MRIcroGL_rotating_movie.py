@@ -1,7 +1,7 @@
 #* Author: Serafeim Loukas, EPFL, serafeim.loukas@epfl.ch, 28 Feb 2020
 #* Script to save png rotated rendered brain images -- to be used for gif construction
 
-import gl
+import gl, os
 gl.resetdefaults()
 
 #* Where to save results
@@ -30,10 +30,13 @@ for x in range(x0,x,step):
   #* 'wait' command is optional
   gl.wait(10)
   #* change resolution
-  gl.bmpzoom(0.5)
+  gl.bmpzoom(0.5) # play with this a bit
   #* Save rotated rendered brain views
   gl.savebmp(save_to + 'rot_' + str(x) + '.png')
 
 #* Create a gif using imagemagick or similar software¨
 #* Call the following commad from the terminal after CDing into 'save_to' directory
-#convert -delay 90 *rot_* rotating_brain.gif
+os.chdir(save_to)
+gif_command = os.popen("convert -delay 90 *rot_* rotating_brain.gif")
+print(gif_command.read())
+print(gif_command.close())
