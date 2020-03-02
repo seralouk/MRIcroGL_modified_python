@@ -1,6 +1,6 @@
 ## Author: Serafeim Loukas, EPFL, serafeim.loukas@epfl.ch, 28 Feb 2020
 
-### MRIcroGL (https://github.com/neurolabusc/MRIcroGL) Script to save png rotated rendered brain images -- to be used for gif construction
+### MRIcroGL (https://github.com/neurolabusc/MRIcroGL) Modified Python Script to save png rotated rendered brain images -- to be used for gif construction
 
 #### Instructions: 
 
