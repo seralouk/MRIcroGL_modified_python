@@ -11,5 +11,5 @@
 
 Hack: Before you execute the code, resize (manually) the MRIcroGL window such as that the brain view has the desired dimension. This will ensure that the output saved brain rotated  images, will keep the window's dimensions and field of view.
 
-### UPDATE on Sep, 10th: 
+### Small UPDATE on Sep 10, 2021: 
 I have added a new function in the directory "Overlay_on_spm152" that overlays an activation map onto the spm152 structural template with negative and positive colors! 
